@@ -1,0 +1,93 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: lightgrey;
+  }
+ 
+  .navigation {
+    width: 100%;
+    height: 60px;
+    padding: 0;
+  }
+  
+  .menu-toggle {
+    width: 60px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("img/menu.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left;
+    cursor: pointer;
+  }
+   
+  .color-navigation {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: calc(100vh - 60px);
+    padding: 0 5px;
+    background-color: lightgrey;
+    z-index: 1000;
+    transition: all 0.5s linear;
+    cursor: pointer;
+  }
+  
+  .color-navigation ul {
+    padding-top: 0;
+    overflow: hidden;
+    visibility: hidden;
+    padding-left: 0;
+    transition: all 0.5s linear;
+  }
+  
+  .color-navigation ul li {
+    display: block;
+    line-height: 60px;
+    list-style: none;
+    border: 2px solid lightgrey;
+  }
+  
+  .color-navigation ul a {
+    display: block;
+    height: 60px;
+    padding: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    white-space: nowrap;
+  }
+  
+  .color-navigation ul a:hover {
+    font-weight: bold;
+    color: white;
+  }
+  
+  .color-home-button, .color-click-home {
+    background-color: lightgrey;
+  }
+
+  .color-red-button, .color-click-red {
+    background-color: red;
+  }
+
+  .color-orange-button, .color-click-orange {
+    background-color: orange;
+  }
+
+  .color-purple-button, .color-click-purple {
+    background-color: purple;
+  }
+
+  .color-green-button, .color-click-green {
+    background-color: green;
+  }
+  
+  .colorname {
+    text-align: center;
+    font-size: 50px;
+}
+
